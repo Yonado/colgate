@@ -132,7 +132,7 @@ export default function Home() {
             <p className='text-lg italic drop-shadow-md'>with Colgate® Optic White® Overnight Whitening Pen.</p>
           </div>
           <div className="flex gap-2 flex-col text-white bg-[#F01A1D] p-8 py-[80px] text-center rounded-lg cursor-pointer">
-            <h4 className='text-4xl italic font-bold drop-shadow-xl'>All Colgate Products >> </h4>
+            <h4 className='text-4xl italic font-bold drop-shadow-xl'>All Colgate Products &gt;&gt;</h4>
           </div>
         </div>
         <div className="right flex flex-col gap-4">
@@ -160,10 +160,10 @@ export default function Home() {
           <div className="banner flex flex-col px-4 py-10  bg-[#900405] text-white italic gap-10 rounded-lg md:mt-[-70px]">
             <h6 className='text-center drop-shadow-lg text-4xl text-normal font-bold'>Popular:</h6>
             <div className="links flex flex-col drop-shadow-lg ml-2 gap-8 texl-4xl items-center md:items-start">
-              <Link className='text-3xl' href="/">Power of <span className="font-bold">Optimism</span> >></Link>
-              <Link className='text-3xl' href="/">Empowering <span className="font-bold">the youth</span> >></Link>
-              <Link className='text-3xl' href="/">Future has a <span className="font-bold">smile</span> >></Link>
-              <Link className='text-3xl' href="/">Know <span className="font-bold">what you get</span> >></Link>
+              <Link className='text-3xl' href="/">Power of <span className="font-bold">Optimism</span> &gt;&gt;</Link>
+              <Link className='text-3xl' href="/">Empowering <span className="font-bold">the youth</span> &gt;&gt;</Link>
+              <Link className='text-3xl' href="/">Future has a <span className="font-bold">smile</span> &gt;&gt;</Link>
+              <Link className='text-3xl' href="/">Know <span className="font-bold">what you get</span> &gt;&gt;</Link>
             </div>
           </div>
         </div>
