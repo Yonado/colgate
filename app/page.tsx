@@ -174,7 +174,7 @@ export default function Home() {
           <div className="bg-center cursor-pointer w-full h-1/2 bg-no-repeat md:h-[500px] md:w-[750px] hover:bg-black/40 bg-black/20 transition ease-in-out bg-blend-overlay rounded bg-cover bg-[url('../public/home-hero-father.webp')] flex flex-col justify-center pb-16 p-8 gap-2">
             <div className="text flex flex-col text-white max-w-[40%] gap-12">
               <h4 className='drop-shadow-lg text-5xl font-bold italic'>Colgate keeps the world smiling.</h4>
-              <button className="p-5 border-white border-2 rounded-full justify-center items-center hover:text-black hover:bg-white transition ease-in-out duration-300 text-center justify-self-end font-bold text-xl">Our Mission</button>
+              <button className="p-5 border-white border-2 rounded-full justify-center items-center hover:text-black hover:bg-white transition ease-in-out duration-300 text-center flex justify-self-end font-bold text-xl">Our Mission</button>
             </div>
           </div>
         </div>
