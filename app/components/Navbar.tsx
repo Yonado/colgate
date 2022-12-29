@@ -22,7 +22,7 @@ const Navbar = () => {
                 <div className="justify-self-start md:hidden cursor-pointer" onClick={() => useToggle(!toggle)}>{hamburgerIcon}</div>
                 <div className={toggle ? "mobile-menu h-screen w-full fixed top-0 right-0 bottom-0 left-0 z-10 bg-black duration-200 ease-in" : "mobile-menu h-screen w-full fixed top-0 right-0 bottom-0 left-[-100%] z-10 bg-black ease-out duration-200"}>
                     <div className="flex flex-row gap-4 text-white mx-8 my-6 justify-start h-full w-full">
-                        <div className={toggle && "absolute top-8 left-8 self-start md:hidden cursor-pointer transition ease-in duration-300"} onClick={() => useToggle(!toggle)}>{closeMenu}</div>
+                        <div className={toggle ? "absolute top-8 left-8 self-start md:hidden cursor-pointer transition ease-in duration-300" : "hidden"} onClick={() => useToggle(!toggle)}>{closeMenu}</div>
                         <div className="mobile-links justify-self-start my-20 flex flex-col gap-8 text-xl">
                             <Link href="/">Professionals</Link>
                             <Link href="/">Research</Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             <Link href="/">Colgate's Mission</Link>
                             <Link href="/">The World Smiles</Link>
                         </div>
-                        <div className={toggle && "absolute top-16 right-2 font-bold text-xl italic self-start md:hidden cursor-pointer rotate-90"}>Colgate.</div>
+                        <div className={toggle ? "absolute top-16 right-2 font-bold text-xl italic self-start md:hidden cursor-pointer rotate-90" : "hidden"}>Colgate.</div>
                         {/* <div className="mobile-menu-text flex items-center justify-end h-full w-full rotate-90 text-2xl italic font-bold">Colgate.</div> */}
                     </div>
                 </div>
